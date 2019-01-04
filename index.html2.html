@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/CSS/Style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js"></script> 
+    <title>Mon Mémento</title>
+  </head>
+  <body>
+    <div class="block">
+      <header class="header">
+              <a href="#" class ="header-logo">Mon Memento</a>
+              <nav class="header-menu"> 
+                  <ul>
+                     <li class="btn">
+                      <i class="fas fa-terminal"></i>
+                    <a href="#">
+                       Ligne de commandes
+                    </a>
+                      </li>
+                      <li class="btn">
+                       <i class="fab fa-github"></i>
+                    <a href="GitHub.html">
+                        GitHub
+                    </a>
+                      </li>
+                      <li class="btn">
+                       <i class="fab fa-php"></i>
+                     <a href="php.html">
+                        Php
+                    </a>
+                      </li>
+                  </ul>
+              </nav>
+          </header>
+      </div>
+      </header></br></br>
+      <p class="title1"><i class="fas fa-terminal"></i>  <u>Ligne de commandes</u></p>
+      <h1><u>Exercice ligne de commande - Partie 1</u></h1>
+      <h2><u>Exercice 1</u></h2>
+          <p>Afficher le manuel pour la commande ls</br><p class="text">man ls</p></p>
+      <h2><u>Exercice 2</u></h2>
+          <p>Afficher le contenu du dossier courant</br><p class="text">ls</p></p>
+      <h2><u>Exercice 3</u></h2>
+          <p>Afficher le contenu du dossier courant avec les fichiers cachés</br><p class="text">ls -A</p></p>
+      <h2><u>Exercice 4</u></h2>
+          <p>Afficher le contenu du dossier courant version longue sans les fichiers cachés</br><p class="text">ls -l</p></p>
+      <h2><u>Exercice 5</u></h2>
+          <p>Afficher le contenu du dossier courant version longue avec les fichiers cachés</br><p class="text">ls -Al</p></p>
+      <h2><u>Exercice 6</u></h2>
+          <p>Afficher le chemin du dossier courant</br><p class="text">pwd</p></p>
+      <h2><u>Exercice 7</u></h2>
+          <p>Se déplacer dans le dossier Documents</br><p class="text">cd Documents/</p></p>
+      <h2><u>Exercice 8</u></h2>
+          <p>Afficher le contenu de ce dossier</br><p class="text">cd ./Documents ls</p></p>
+  <h1><u>Exercice Ligne de commande - Partie 2</u></h1>
+      <h2><u>Exercice 1</u></h2>
+          <p>Se mettre en super utilisateur (Attention avec -i retour à la racine)</br><p class="text">sudo -s</p></p>
+      <h2><u>Exercice 2</u></h2>
+          <p>Mettre à jour la liste des paquets (Autre noms de donnée) </br><p class="text">sudo apt update</p></p>
+      <h2><u>Exercice 3</u></h2>
+          <p>Mettre à jour les paquets (apt install -f pour fixer les problème de dépendance)</br><p class="text">sudo apt upgrade</p></p>
+      <h2><u>Exercice 4</u></h2>
+          <p>Trouver tous les paquets contenant le mot XML</br><p class="text">sudo apt search XML</p></p>
+      <h2><u>Exercice 5</u></h2>
+          <p>Installer le paquet git</br><p class="text">sudo apt install git</p></p>
+      <h2><u>Exercice 6</u></h2>
+          <p>Avec le navigateur, télécharger le .deb à l'adresse https://atom.io/ . Avec la ligne de commande, se déplacer dans le dossier Téléchargement. Lancer l'installation du .deb nouvellement téléchargé</br><p class="text">sudo dpkg -i atom-amd64.deb</p></p>
+  <h1><u>Exercice Ligne de commande - Partie 3</u></h1>
+      <h2><u>Exercice 1</u></h2>
+          <p>Créer un dossier website dans le dossier Document</br><p class="text">mkdir website</p></p>
+      <h2><u>Exercice 2</u></h2>
+          <p>Créer un dossier et un sous dossier en une seule ligne de commande dans le dossier</br><p class="text">website : Memento/assets</br>cd website</br>mkdir -p Memento/assets</p></p>
+      <h2><u>Exercice 3</u></h2>
+          <p>Se déplacer dans le dossier nouvellement créé et faire trois nouveaux dossiers en une seule ligne de commande : css, img, js</br><p class="text">cd Memento</br>cd assets</br>mkdir  css img js</p></p>
+      <h2><u>Exercice 4</u></h2>
+           <p>Dans le dossier Memento créer le fichier style.css</br><p class="text">cd Memento</br>touch style.css</p></p>
+      <h2><u>Exercice 5</u></h2>
+           <p>Dans le dossier Memento créer un fichier index.html et copier/coller ceci dedans :</br></br></p>
+              <p class="fixe">&lt;!DOCTYPE html&gt;</br>
+                <p class="fixe">&lt;html&gt;</br>
+                  <p class="right1">&lt;head&gt;</br>
+                    <p class="right2">&lt;meta charset="utf-8"&gt;</br>
+                    <p class="right2">&lt;link rel="stylesheet" href="assets/css/style.css"&gt;</br>
+                    <p class="right2">&lt;title>Mon Mémento&lt;/title&gt;</br>
+                  <p class="right1">&lt;/head&gt;</br>
+                  <p class="right1">&lt;body&gt;</br>
+                      <p class="right2">&lt;h1&gt;La ligne de commande&lt;/h1&gt;</br>
+                      <p class="right2">&lt;h2&gt;Gestion de documents&lt;/h2&gt;</br>
+                      <p class="right2">&lt;p&gt;Pour créer un dossier je dois utiliser cette commande : &lt;/p&gt;</br>
+                      <p class="right2">&lt;pre&gt;&lt;code>&lt;/code&gt;&lt;/pre&gt;</br>
+                  <p class="right1">&lt;/body&gt;</br>
+               <p class="fixe">&lt;/html&gt;</br>
+           <p class="text"></br>touch index.html</br>nano index.html</p></p>
+      <h2><u>Exercice 6</u></h2>
+          <p>Déplacer le fichier style.css dans le dossier css du dossier assets</br><p class="text">mv style.css ~/Documents/Website/Memento/assets/css</p></p>
+      <h2><u>Résumée des différentes commandes :</u></h2>    
+      <p class="text">man :</p><p> permet d’obtenir des information supplémentaire sur la commande (utilisable sur toute les commandes)</p>
+      <p class="text">ls :</p><p>affiche la liste des fichiers ou dossier</p>
+
+
+  </body>
+  </html>
